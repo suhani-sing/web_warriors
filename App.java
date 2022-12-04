@@ -1,22 +1,14 @@
 import java.util.*;
 import java.io.*;
 
-class Employee implements Serializable{
+class Employee{
 		
-		private static final long serialVersionUID = 1L;
+		
 		int cust_id;
 		String cust_name,email,password,address;
 		long contact;
 		String nomini_name,relationship;
 		
-		
-		//public List<Employee> getEmpList() {
-		//	return empList;
-		//}
-		//public void setEmpList(List<Employee> empList) {
-		//	this.empList=empList;
-			
-		//}
 		
 		Employee(int cust_id,String cust_name, String email,String password,String address,long contact,String nomini_name,String relationship){
 			this.cust_id=cust_id;
